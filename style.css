@@ -1,0 +1,29 @@
+#navigation{
+    width:32%;
+    display:inline-block;
+    border:1px solid black;
+}
+
+.theNav{
+    display:inline-block;
+    margin-left:25px;
+}
+
+#headerLogo{
+    width:35%;
+    display:inline-block;
+    border:1px solid black;
+    text-align:center;
+}
+
+#headerRight{
+    width:29%;
+    display:inline-block;
+    border:1px solid black;
+    text-align:right;
+}
+
+.headerRight{
+    display:inline-block;
+    margin-left:25px;
+}

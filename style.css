@@ -4,9 +4,29 @@
     border:1px solid black;
 }
 
+.none{
+    display:none;
+}
+
 .theNav{
     display:inline-block;
     margin-left:25px;
+}
+
+#burgerNav{
+    width:7%;
+    border:1px solid black;
+    text-align: center;
+}
+
+#theBurger{
+    width:20px;
+}
+
+#burgerRight{
+    border:solid 1px black;
+    width:10%;
+    text-align:center;
 }
 
 #headerLogo{
@@ -26,4 +46,35 @@
 .headerRight{
     display:inline-block;
     margin-left:25px;
+}
+
+
+@media (max-width:400px){
+    #headerLogo{
+        width:75%;
+        text-align:center;
+        align-items: center;
+    }
+
+    #navigation{
+        display:none;
+    }
+
+    #burgerNav{
+        display:inline-block;
+    }
+
+    #headerRight{
+        display:none;
+    }
+
+    #burgerRight{
+        display:inline-block;
+
+    }
+
+}
+
+@media(min-width:401px){
+
 }

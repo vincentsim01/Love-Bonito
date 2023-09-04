@@ -8,6 +8,43 @@
     display:none;
 }
 
+
+
+#mobileMenu{
+    position:absolute;
+    width:90%;
+    border:solid 1px black;
+    text-align: center;
+    z-index: 10;
+    flex: left;
+    background-color: white;
+    font-size:20px;
+
+}
+
+#mobileMenuX{
+    flex:right;
+    display:block;
+    text-align:right;
+    border:1px solid black;
+    display:inline-block;
+    border-radius:10px;
+    background-color:bisque;
+
+    position:absolute;
+    right:-4px;
+    up:5px;
+}
+
+.menuMobile{
+    list-style-type:none;
+
+}
+
+.noneMenu{
+    display:none;
+}
+
 .theNav{
     display:inline-block;
     margin-left:25px;

@@ -85,6 +85,44 @@
     margin-left:25px;
 }
 
+#newArrivalBanner{
+    background-image: url('https://i.ibb.co/GkRMJcK/sep-8.webp');
+    background-color: brown;
+    z-index: 1;
+    width: 100%;
+    height: 100px;
+    background-repeat: none;
+    text-align: center;
+    vertical-align: middle;
+    border:solid 1px black;
+
+}
+
+#newArrivalText{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top:50%;
+    border:1px solid black;
+
+}
+
+#yes{
+
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top:50%;
+    border:1px solid black;
+}
+
+
+#newArrivalImage{
+    width:95%;
+}
+
 
 @media (max-width:400px){
     #headerLogo{

@@ -131,6 +131,29 @@
     border:1px solid black;
 }
 
+#comeIntoYourOwn{
+    background-repeat: no-repeat;
+    width:100%;
+    background-size: cover;
+}
+
+
+#imgComeLife{
+    width:100%;
+    background-repeat: no-repeat;
+    z-index: 1;
+    display:inline-block;
+    border:10px solid;
+    position:relative;
+}
+
+#comeLifeText{
+    display:inline-block;
+    position:relative;
+    z-index: 3;
+    margin:10%;
+}
+
 
 @media (max-width:400px){
     #headerLogo{

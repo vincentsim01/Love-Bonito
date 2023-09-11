@@ -90,11 +90,13 @@
     background-color: brown;
     z-index: 1;
     width: 100%;
-    height: 100px;
-    background-repeat: none;
+    height: 400px;
+    background-repeat: no-repeat;
     text-align: center;
     vertical-align: middle;
-    border:solid 1px black;
+    border:solid 10px black;
+    background-size:cover;
+    font-family: 'Oswald', sans-serif;
 
 }
 
@@ -102,25 +104,31 @@
     display: inline-block;
     text-align: center;
     align-items: center;
-    position: absolute;
-    top:50%;
-    border:1px solid black;
+    position: relative;
+
+    top:30%;
+    color: white;
+    font-size:xx-large;
 
 }
 
 #yes{
 
-    display: inline-block;
-    text-align: center;
-    align-items: center;
-    position: absolute;
-    top:50%;
+
+    display:inline-block;
+    position: relative;
     border:1px solid black;
+    top:40%;
 }
 
 
 #newArrivalImage{
     width:95%;
+}
+
+.bestSellers{
+    text-align:center;
+    border:1px solid black;
 }
 
 

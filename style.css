@@ -132,11 +132,35 @@
 }
 
 #comeIntoYourOwn{
+    background-image: url('https://i.ibb.co/1TtYzLp/come-into-your-own.webp');
     background-repeat: no-repeat;
     width:100%;
+    height:500px;
     background-size: cover;
+    text-align:center;
 }
 
+.comeText{
+    text-align:center;
+    display:inline-block;
+    align-items: center;
+    color: white;
+    border:1px solid black;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    top:40%;
+}
+
+#comeIntoYourOwnText{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+#YouAreMeantText{
+    font-size: 50px;
+    font-weight: 400;
+
+}
 
 #imgComeLife{
     width:100%;
@@ -177,6 +201,25 @@
     #burgerRight{
         display:inline-block;
 
+    }
+
+    .comeText{
+        top:15%;
+    }
+
+    #comeIntoYourOwnText{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    
+    #YouAreMeantText{
+        font-size: 30px;
+        font-weight: 400;
+    
+    }
+
+    #comeIntoYourOwn{
+        height:300px;
     }
 
 }

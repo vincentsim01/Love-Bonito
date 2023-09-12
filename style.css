@@ -131,6 +131,21 @@
     border:1px solid black;
 }
 
+
+#WhatTrendingContainer{
+    text-align: center;
+    padding:10px;
+}
+
+.whatTrendz{
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#whatTrendingText{
+    font-size:50px;
+}
+
 #comeIntoYourOwn{
     background-image: url('https://i.ibb.co/1TtYzLp/come-into-your-own.webp');
     background-repeat: no-repeat;
@@ -202,6 +217,7 @@
         display:inline-block;
 
     }
+
 
     .comeText{
         top:15%;

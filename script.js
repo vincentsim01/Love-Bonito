@@ -40,18 +40,19 @@ var bestsells=[
         image:"https://i.ibb.co/DQjXFF2/hermione-padded-knot-back.jpg"
     }
 ]
+{/* <img src=${getShown.image} class="bestSellImage"><br></br> */}
 
 var bestSellGallery=document.getElementById("bestSellerGallery");
 
 bestsells.forEach(getShown=>{
     var theSell=document.createElement("button");
-    theSell.innerHTML=`<div class="bestSellButton"> 
-                            <img src=${getShown.image} class="bestSellImage"><br>
+    theSell.innerHTML=`
+                         
                             <p class="bestSellCategory">Name is ${getShown.category}</p><br>
                             <p class="bestSellName">Name is ${getShown.name}</p>
                             <br>
                             <p class="bestSellPrice">Price is ${getShown.price}</p>
-                        </div>`
+                        `
        
 
     bestSellGallery.appendChild(theSell);

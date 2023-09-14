@@ -128,7 +128,28 @@
 
 .bestSellers{
     text-align:center;
-    border:1px solid black;
+    border:20px solid black;
+    width:100%;
+}
+
+#bestSellerGallery{
+    width:90%;
+    display:inline-block;
+    flex:right;
+    border:10px solid blue;
+
+}
+
+.bestSellButton{
+    width:22%;
+    display:inline-block;
+    flex:right;
+    border:10px solid black;
+
+}
+
+.bestSellImage{
+    width:60%;
 }
 
 

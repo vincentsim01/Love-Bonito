@@ -128,28 +128,35 @@
 
 .bestSellers{
     text-align:center;
-    border:20px solid black;
+    border:solid 1px black;
+
     width:100%;
 }
 
 #bestSellerGallery{
-    width:90%;
+    width:95%;
     display:inline-block;
-    flex:right;
-    border:10px solid blue;
+
+
 
 }
 
 .bestSellButton{
-    width:22%;
+    /* width:22%; */
     display:inline-block;
     flex:right;
-    border:10px solid black;
+
 
 }
 
 .bestSellImage{
-    width:30%;
+    width:80%;
+}
+
+.bebesellsell{
+    background-color: pink;
+    width:25%;
+    margin:5px;
 }
 
 

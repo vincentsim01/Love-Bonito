@@ -19,8 +19,8 @@ function mobileMenuIn(){
 
 var bestsells=[
     {
-        name:"pink shirt",
-        price:"$25",
+        name:"Hermione Padded Knot Back Top",
+        price:"$39",
         size:"large",
         category:"Tops",
         image:"https://i.ibb.co/DQjXFF2/hermione-padded-knot-back.jpg"
@@ -46,12 +46,13 @@ var bestSellGallery=document.getElementById("bestSellerGallery");
 
 bestsells.forEach(getShown=>{
     var theSell=document.createElement("button");
+    theSell.classList.add("bebesellsell");
     theSell.innerHTML=`
-                         
-                            <p class="bestSellCategory">Name is ${getShown.category}</p><br>
-                            <p class="bestSellName">Name is ${getShown.name}</p>
+                            <img src=${getShown.image} class="bestSellImage"><br></br>
+                            <p class="bestSellCategory"> ${getShown.category}</p><br>
+                            <p class="bestSellName"> ${getShown.name}</p>
                             <br>
-                            <p class="bestSellPrice">Price is ${getShown.price}</p>
+                            <p class="bestSellPrice"> ${getShown.price}</p>
                         `
        
 

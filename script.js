@@ -26,21 +26,33 @@ var bestsells=[
         image:"https://i.ibb.co/DQjXFF2/hermione-padded-knot-back.jpg"
     },
     {
-        name:"blue shirt",
-        price:"$15",
+        name:"Margaux Off Shoulder Knit Top",
+        price:"$45",
         category:"Tops",
         size:"small",
-        image:"https://i.ibb.co/DQjXFF2/hermione-padded-knot-back.jpg"
+        image:"https://i.ibb.co/zGXtcNb/margaux-off-shoulder-knit-top.webp"
     },
     {
-        name:"orange shirt",
-        price:"$23",
-        category:"Bottom",
+        name:"Nyra Linen Wide Leg Culottes",
+        price:"$59",
+        category:"Pants",
         size:"medium",
-        image:"https://i.ibb.co/DQjXFF2/hermione-padded-knot-back.jpg"
+        image:"https://i.ibb.co/gd0VGXH/Nyra-Linen-Wide-Leg-Culottes.webp"
+    }
+    ,
+    {
+        name:"Wesson Belted Cotton Shorts",
+        price:"$45",
+        category:"Shorts",
+        size:"medium",
+        image:"https://i.ibb.co/8jrzTRt/Wesson-Belted-Cotton-Shorts.webp"
     }
 ]
 {/* <img src=${getShown.image} class="bestSellImage"><br></br> */}
+
+// {/* <a href="https://ibb.co/WckDqdj"><img src="https://i.ibb.co/8jrzTRt/Wesson-Belted-Cotton-Shorts.webp" alt="Wesson-Belted-Cotton-Shorts" border="0"></a> */}
+
+{/* <a href="https://ibb.co/Mfz6bjW"><img src="https://i.ibb.co/gd0VGXH/Nyra-Linen-Wide-Leg-Culottes.webp" alt="Nyra-Linen-Wide-Leg-Culottes" border="0"></a> */}
 
 var bestSellGallery=document.getElementById("bestSellerGallery");
 

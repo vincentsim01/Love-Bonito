@@ -90,7 +90,12 @@
 
     <div class="container-fluid" >
         <div id="specialDeal" class="container"><h1>Special Deal</h1></div>
-        <div id="devCarousel" class="carousel slide bann" data-ride="carousel" id="specialDealContainer">
+        <div id="devCarousel" class="carousel slide" data-ride="carousel" id="specialDealContainer">
+            <ol class="carousel-indicators" id="specialDealControl">
+                <li data-target="devCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="devCarousel" data-slide-to="1"></li>
+                <li data-target="devCarousel" data-slide-to="2"></li>
+            </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./Image/banner/hp_hero_hy6308-th2807-1.webp">
@@ -101,11 +106,16 @@
 
                 </div>
 
+                <div class="carousel-item">
+                    <img src="https://i.ibb.co/KWtDb2R/banner3.webp">
+                    
+                </div>      
+
                 <a class="left carousel-control" href="#devCarousel" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left">&times;</span>
+                    <span class="glyphicon glyphicon-chevron-left">LEFT</span>
                 </a>
                 <a class="right carousel-control" href="#devCarousel" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right">&times;</span>
+                    <span class="glyphicon glyphicon-chevron-right">RIGHT</span>
                 </a>
             </div>
         </div>

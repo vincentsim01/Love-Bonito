@@ -133,6 +133,10 @@
     width:100%;
 }
 
+#bestSellerText{
+    font-family: 'Oswald', sans-serif;
+}
+
 #bestSellerGallery{
     width:95%;
     display:inline-block;
@@ -159,7 +163,16 @@
     margin:5px;
 }
 
+#specialDealContainer{
+   width:97%;
+    height:200px; w
+}
 
+
+#specialDeal{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
 #WhatTrendingContainer{
     text-align: center;
     padding:10px;

@@ -168,6 +168,18 @@
     height:200px; w
 }
 
+#aboutLoveBonitoText{
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#aboutLove{
+    text-align:center;
+    border:solid 1px black;
+    background-color: beige;
+    padding:20px;
+}
+
 
 #specialDeal{
     text-align: center;

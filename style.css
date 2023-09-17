@@ -157,10 +157,21 @@
     width:80%;
 }
 
+.bestSellName{
+    font-size:20px;
+}
+
+.bestSellCategory{
+    color:grey;
+}
+
 .bebesellsell{
     background-color: whiteS;
     width:23%;
     margin:5px;
+    text-align:left;
+    font-family: 'Oswald', sans-serif;
+    padding:10px;
 }
 
 #specialDealContainer{

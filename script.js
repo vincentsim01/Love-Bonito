@@ -23,6 +23,7 @@ var bestsells=[
         price:"$39",
         size:"large",
         category:"Tops",
+        color:["red", "green", "blue"],
         image:"https://i.ibb.co/DQjXFF2/hermione-padded-knot-back.jpg"
     },
     {
@@ -30,6 +31,7 @@ var bestsells=[
         price:"$45",
         category:"Tops",
         size:"small",
+        color:["pink", "green", "orange", "blue"],
         image:"https://i.ibb.co/zGXtcNb/margaux-off-shoulder-knit-top.webp"
     },
     {
@@ -37,6 +39,7 @@ var bestsells=[
         price:"$59",
         category:"Pants",
         size:"medium",
+        color:["gold", "black", "white", "purple", "green"],
         image:"https://i.ibb.co/gd0VGXH/Nyra-Linen-Wide-Leg-Culottes.webp"
     }
     ,
@@ -45,6 +48,7 @@ var bestsells=[
         price:"$45",
         category:"Shorts",
         size:"medium",
+        color:["red", "yellow", "turquoise"],
         image:"https://i.ibb.co/8jrzTRt/Wesson-Belted-Cotton-Shorts.webp"
     }
 ]
@@ -65,8 +69,11 @@ bestsells.forEach(getShown=>{
                             <p class="bestSellName"> ${getShown.name}</p>
                             <br>
                             <p class="bestSellPrice"> ${getShown.price}</p>
+                            <span class="colorCircle" style="background-color:${getShown.color};"><span style="background-color:${getShown.color};">${getShown.color}</span></span>
+
+                            
                         `
-       
+       console.log(getShown.color);
 
     bestSellGallery.appendChild(theSell);
     

@@ -190,6 +190,21 @@
 
 }
 
+#BENEFIT{
+    text-align:center;
+    font-family:'Oswald', sans-serif;
+}
+
+#deliveryDivider{
+    border-top:2px dashed black;
+}
+
+#freeDeliveryText{
+    font-family: 'Oswald', sans-serif;
+    text-align: left;
+
+}
+
 #aboutLove{
     text-align:center;
     border:solid 1px black;
@@ -286,13 +301,25 @@
 #firstFooterContainer{
     text-align:center;
     font-family: 'Oswald',sans-serif;
-    background-color: beige;
+    background-color: #fbf2ee;
+    border:1px black solid;
+    height:200px;
 }
 
 .firstFooterContent{
-    border:1px solid black;
-    height:100px;
 
+
+    position:relative;
+    top:30%;
+    border-right:black 1px solid;
+    /* border:1px black solid; */
+
+
+
+}
+
+#footer2Container{
+    background-color: #ffd4c2;
 }
 
 #LBCommunityImage{

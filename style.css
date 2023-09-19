@@ -329,6 +329,14 @@
     height:60px;
 }
 
+.footerNone{
+    display:none;
+}
+
+#footer2ContainerCollapse{
+    display:none;
+}
+
 
 @media (max-width:400px){
     #headerLogo{
@@ -378,11 +386,21 @@
         width:95%;
     }
 
+
+
 }
 
 @media(max-width:600px){
     .bebesellsell{
         width:40%;
+    }
+
+    #footer2Container{
+        display:none;
+    }
+
+    #footer2ContainerCollapse{
+        display:block;
     }
 
 }

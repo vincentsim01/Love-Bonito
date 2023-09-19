@@ -69,7 +69,7 @@ bestsells.forEach(getShown=>{
                             <p class="bestSellName"> ${getShown.name}</p>
                             <br>
                             <p class="bestSellPrice"> ${getShown.price}</p>
-                            <span class="colorCircle" style="background-color:${getShown.color};"><span style="background-color:${getShown.color};">${getShown.color}</span></span>
+                            <span class="colorCircle" style="background-color:beige;"><span>Color Available: ${getShown.color}</span></span>
 
                             
                         `

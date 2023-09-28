@@ -94,13 +94,14 @@
     font-family: 'Oswald', sans-serif;
 }
 
-#headerRight:hover{
+.headerRight:hover{
     transform: scale(1.1);
 }
 
 .headerRight{
     display:inline-block;
     margin-left:25px;
+    font-family: 'Oswald', sans-serif, 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
 }
 
 #newArrivalBanner{
@@ -349,6 +350,7 @@
 #footer2Container{
     background-color: #ffd4c2;
     font-family: 'Oswald', sans-serif;
+    padding:15px;
 }
 
 #LBCommunityImage{
@@ -365,7 +367,7 @@
 }
 
 
-@media (max-width:400px){
+@media (max-width:500px){
     #headerLogo{
         width:75%;
         text-align:center;

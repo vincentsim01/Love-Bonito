@@ -76,7 +76,7 @@
 }
 
 #headerLogo{
-    width:35%;
+    width:32%;
     display:inline-block;
     /* border:1px solid black; */
     text-align:center;
@@ -86,8 +86,12 @@
     transform:scale(1.1);
 }
 
+#theSearchBox{
+    width:70px;
+}
+
 #headerRight{
-    width:29%;
+    width:33%;
     display:inline-block;
     /* border:1px solid black; */
     text-align:right;

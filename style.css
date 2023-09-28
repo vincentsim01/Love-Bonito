@@ -51,6 +51,11 @@
 .theNav{
     display:inline-block;
     margin-left:25px;
+
+}
+
+.theNav:hover{
+    transform:scale(1.1);
 }
 
 #burgerNav{
@@ -77,11 +82,20 @@
     text-align:center;
 }
 
+#headerLogo:hover{
+    transform:scale(1.1);
+}
+
 #headerRight{
     width:29%;
     display:inline-block;
     /* border:1px solid black; */
     text-align:right;
+    font-family: 'Oswald', sans-serif;
+}
+
+#headerRight:hover{
+    transform: scale(1.1);
 }
 
 .headerRight{

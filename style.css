@@ -139,6 +139,10 @@
     top:40%;
 }
 
+#yes{
+    transform:scale(1.1);
+}
+
 
 #newArrivalImage{
     width:95%;
@@ -190,6 +194,10 @@
     text-align:left;
     font-family: 'Oswald', sans-serif;
     padding:10px;
+}
+
+.bebesellsell:hover{
+    transform:scale(1.1);
 }
 
 .colorCircle{

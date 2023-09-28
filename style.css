@@ -266,6 +266,10 @@
 
 }
 
+.trenzzzz:hover{
+    transform:scale(1.1);
+}
+
 .card{
     margin:20px;
     font-family: 'Oswald', sans-serif;

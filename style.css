@@ -241,7 +241,16 @@
     border:solid 1px black;
     background-color: beige;
     padding:20px;
-    margin:8%;
+    margin:3%;
+}
+
+.USP:hover{
+    transform:scale(1.1);
+
+}
+
+#aboutLoveBonitoText{
+    padding:20px;
 }
 
 
@@ -294,6 +303,10 @@
     height:500px;
     background-size: cover;
     text-align:center;
+}
+
+#comeIntoYourOwn:hover{
+    transform:scale(1.05);
 }
 
 .comeText{
@@ -352,6 +365,11 @@
     /* border:1px black solid; */
 
 
+
+
+}
+
+.fut1{
 
 }
 

@@ -80,3 +80,11 @@ bestsells.forEach(getShown=>{
     
     
 });
+
+var theBody=document.getElementsByTagName('body');
+var darklightButton=document.getElementById("darklightModeButton");
+darklightButton.addEventListener("click",function(){
+    document.body.classList.toggle("darkMode");
+
+
+});

@@ -88,3 +88,11 @@ darklightButton.addEventListener("click",function(){
 
 
 });
+
+var popup=document.getElementById("popup");
+document.body.onload=setTimeout(popupAppear,3000);
+
+function popupAppear(){
+    popup.classList.remove("none");
+
+}

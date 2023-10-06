@@ -86,6 +86,11 @@
     transform:scale(1.1);
 }
 
+#darklightModeButton{
+    border-radius: 50%;
+    height:30px;
+}
+
 #theSearchBox{
     width:70px;
 }
@@ -462,4 +467,8 @@
 
 .darkMode{
     background-color: black;
+}
+
+#lightDarkContainer{
+    text-align: center;
 }

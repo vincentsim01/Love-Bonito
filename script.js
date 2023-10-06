@@ -96,3 +96,11 @@ function popupAppear(){
     popup.classList.remove("none");
 
 }
+
+var popupCloseButton = document.getElementById("popupCloseButton");
+popupCloseButton.addEventListener("click",popupGone);
+
+function popupGone(){
+    popup.classList.add("none");
+
+}

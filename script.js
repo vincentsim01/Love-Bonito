@@ -81,10 +81,13 @@ bestsells.forEach(getShown=>{
     
 });
 
+var firstFooterContainer=document.getElementById("firstFooterContainer");
+
 var theBody=document.getElementsByTagName('body');
 var darklightButton=document.getElementById("darklightModeButton");
 darklightButton.addEventListener("click",function(){
     document.body.classList.toggle("darkMode");
+    firstFooterContainer.classList.toggle("grayMode");
 
 
 });

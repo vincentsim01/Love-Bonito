@@ -93,10 +93,12 @@ darklightButton.addEventListener("click",function(){
 });
 
 var popup=document.getElementById("popup");
+var newArrivalBanner=document.getElementById("newArrivalBanner");
 document.body.onload=setTimeout(popupAppear,3000);
 
 function popupAppear(){
     popup.classList.remove("none");
+    newArrivalBanner.style.opacity="60%";
 
 }
 
@@ -105,5 +107,7 @@ popupCloseButton.addEventListener("click",popupGone);
 
 function popupGone(){
     popup.classList.add("none");
+    newArrivalBanner.style.opacity="100%";
+
 
 }

@@ -35,7 +35,7 @@
 
 
 #navigation{
-    width:32%;
+    width:30%;
     display:inline-block;
     /* border:1px solid black; */
     font-family: 'Oswald', sans-serif;
@@ -76,7 +76,7 @@
 }
 
 #globeIcon{
-    width:20px;
+    width:40px;
 }
 
 .menuMobile{
@@ -90,7 +90,7 @@
 
 .theNav{
     display:inline-block;
-    margin-left:25px;
+    margin-left:20px;
 
 }
 
@@ -116,7 +116,7 @@
 }
 
 #headerLogo{
-    width:32%;
+    width:25%;
     display:inline-block;
     /* border:1px solid black; */
     text-align:center;
@@ -139,11 +139,11 @@
 }
 
 #theSearchBox{
-    width:30px;
+    width:35px;
 }
 
 #headerRight{
-    width:33%;
+    width:36%;
     display:inline-block;
     /* border:1px solid black; */
     text-align:right;
@@ -156,7 +156,7 @@
 
 .headerRight{
     display:inline-block;
-    margin-left:25px;
+    margin-left:20px;
     font-family: 'Oswald', sans-serif, 'Times New Roman', Times, serif, Arial, Helvetica, sans-serif;
 }
 

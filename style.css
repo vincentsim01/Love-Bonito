@@ -22,6 +22,17 @@
     border:1px solid black;
 }
 
+#popup2{
+    position:absolute;
+    z-index:4;
+    height:30%;
+    width:10%;
+    right:0px;
+    top:30%;
+    background-color: white;
+    border:1px solid black;
+}
+
 /* <a href="https://ibb.co/VBDXhgV"><img src="https://i.ibb.co/q19b4NB/hp-hero-fabricplay.webp" alt="hp-hero-fabricplay" border="0" /></a> */
 
 #popupCloseButton{

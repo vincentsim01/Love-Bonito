@@ -16,6 +16,26 @@ function mobileMenuIn(){
     mobileMenu.classList.add("noneMenu");
 }
 
+var globeIcon = document.getElementById("globeIcon");
+globeIcon.addEventListener("click",geoLocation);
+
+
+function geoLocation(){
+    if(navigator.geolocation){
+        navigator.geolocation.getCurrentPosition(positioning)
+
+    }else{
+        alert("Geolocation Error");
+    }
+}
+
+function positioning(data){
+    let lat = data.coords.latitude;
+    let lon = data.coords.longitude;
+    console.log(lat+"Power"+lon);
+
+}
+
 
 var bestsells=[
     {
@@ -73,7 +93,7 @@ bestsells.forEach(getShown=>{
 
                             
                         `
-       console.log(getShown.color);
+    //    console.log(getShown.color);
 
     bestSellGallery.appendChild(theSell);
     

@@ -75,6 +75,10 @@
     up:5px;
 }
 
+#globeIcon{
+    width:20px;
+}
+
 .menuMobile{
     list-style-type:none;
 

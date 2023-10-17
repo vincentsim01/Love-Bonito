@@ -6,7 +6,7 @@
     z-index: 5;
     position:absolute;
     text-align: center;
-    height:45%;
+    height:35%;
     width:50%;
     left:25%;
     top:25%;
@@ -15,7 +15,7 @@
     background:url('https://i.ibb.co/q19b4NB/hp-hero-fabricplay.webp');
     
     background-repeat: no-repeat;
-    object-fit: cover;
+    object-fit:contain;
     color:white;
     padding-top: 10%;
     font-family: 'Oswald', sans-serif;
@@ -24,13 +24,18 @@
 
 #popup2{
     position:absolute;
-    z-index:4;
-    height:30%;
-    width:10%;
-    right:0px;
-    top:30%;
+    z-index:3;
+    height:20%;
+    width:50%;
+    left:25%;
+    top:25%;
     background-color: white;
     border:1px solid black;
+    border-radius:20px;
+}
+
+#globiconpopup2{
+    width:35px;
 }
 
 /* <a href="https://ibb.co/VBDXhgV"><img src="https://i.ibb.co/q19b4NB/hp-hero-fabricplay.webp" alt="hp-hero-fabricplay" border="0" /></a> */
@@ -53,6 +58,10 @@
 }
 
 .none{
+    display:none;
+}
+
+.none2{
     display:none;
 }
 

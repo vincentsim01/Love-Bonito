@@ -137,7 +137,7 @@ popupCloseButton.addEventListener("click",popupGone);
 
 function popupGone(){
     popup.classList.add("none");
-    newArrivalBanner.style.opacity="100%";
+    // newArrivalBanner.style.opacity="100%";
 
 
 }
@@ -147,16 +147,16 @@ var popup2=document.getElementById("popup2");
 document.body.onload=setTimeout(popup2Appear,3000);
 
 function popup2Appear(){
-    popup2.classList.remove("none");
+    popup2.classList.remove("none2");
     newArrivalBanner.style.opacity="60%";
 
 }
 
 var popup2CloseButton = document.getElementById("popup2CloseButton");
-popupCloseButton.addEventListener("click",popup2Gone);
+popup2CloseButton.addEventListener("click",popup2Gone);
 
 function popup2Gone(){
-    popup2.classList.add("none");
+    popup2.classList.add("none2");
     newArrivalBanner.style.opacity="100%";
 
 

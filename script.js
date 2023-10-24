@@ -113,7 +113,17 @@ bestsells.forEach(getShown=>{
 
 var firstFooterContainer=document.getElementById("firstFooterContainer");
 
+
+
 var theBody=document.getElementsByTagName('body');
+
+
+var lightdarkmobile=document.getElementById("lightdarkmobile");
+lightdarkmobile.addEventListener("click",function(){
+    document.body.classList.toggle("darkMode");
+
+});
+
 var darklightButton=document.getElementById("darklightModeButton");
 darklightButton.addEventListener("click",function(){
     document.body.classList.toggle("darkMode");
@@ -121,6 +131,8 @@ darklightButton.addEventListener("click",function(){
 
 
 });
+
+
 
 var popup=document.getElementById("popup");
 var newArrivalBanner=document.getElementById("newArrivalBanner");
@@ -143,8 +155,8 @@ function popupGone(){
 }
 
 
-var popup2=document.getElementById("popup2");
-document.body.onload=setTimeout(popup2Appear,3000);
+// var popup2=document.getElementById("popup2");
+// document.body.onload=setTimeout(popup2Appear,3000);
 
 // function popup2Appear(){
 //     popup2.classList.remove("none2");

@@ -19,7 +19,7 @@
     color:white;
     padding-top: 10%;
     font-family: 'Oswald', sans-serif;
-    border:1px solid black;
+ 
 }
 
 /* #popup2{
@@ -164,7 +164,7 @@
 }
 
 #headerRight{
-    width:36%;
+    width:40%;
     display:inline-block;
     /* border:1px solid black; */
     text-align:right;

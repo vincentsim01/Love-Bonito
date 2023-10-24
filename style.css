@@ -52,7 +52,7 @@
 
 
 #navigation{
-    width:30%;
+    width:28%;
     display:inline-block;
     /* border:1px solid black; */
     font-family: 'Oswald', sans-serif;
@@ -97,7 +97,7 @@
 }
 
 #globeIcon{
-    width:40px;
+    width:15px;
 }
 
 .menuMobile{
@@ -111,7 +111,7 @@
 
 .theNav{
     display:inline-block;
-    margin-left:20px;
+    margin-left:10px;
 
 }
 
@@ -137,7 +137,7 @@
 }
 
 #headerLogo{
-    width:25%;
+    width:15%;
     display:inline-block;
     /* border:1px solid black; */
     text-align:center;
@@ -149,7 +149,7 @@
 
 #darklightModeButton{
     border-radius: 50%;
-    height:30px;
+    height:20%;
     color: white;
     background-color: black;
 }
@@ -160,11 +160,11 @@
 }
 
 #theSearchBox{
-    width:35px;
+    width:30%;
 }
 
 #headerRight{
-    width:40%;
+    width:55%;
     display:inline-block;
     /* border:1px solid black; */
     text-align:right;
@@ -442,9 +442,7 @@
 
 }
 
-.fut1{
 
-}
 
 #footer2Container{
     background-color: #ffd4c2;
@@ -463,6 +461,20 @@
 
 #footer2ContainerCollapse{
     display:none;
+}
+
+@media(max-width:1021px){
+    #locationSelect{
+        display:none;
+    }
+}
+
+@media(max-width:890px){
+
+    #searchBar{
+        display:none;
+    }
+
 }
 
 

@@ -315,7 +315,7 @@
 
 #aboutLove{
     text-align:center;
-    border:solid 1px black;
+
     background-color: beige;
     padding:20px;
     margin-left:5%;
@@ -433,8 +433,9 @@
     font-family: 'Oswald',sans-serif;
     /* background-color: #fbf2ee; */
 
-    height:20%;
-    padding:25px;
+    height:25%;
+    padding:30px;
+    background-color: blanchedalmond;
 }
 
 .firstFooterContent{
@@ -444,6 +445,9 @@
     padding-top:10px;
     border-right:black 1px solid;
     /* border:1px black solid; */
+
+
+
 
 
 

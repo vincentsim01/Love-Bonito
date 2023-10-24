@@ -71,7 +71,7 @@
 #mobileMenu{
     position:absolute;
     width:90%;
-    /* border:solid 1px black; */
+    border:solid 1px black;
     text-align: center;
     z-index: 10;
     flex: left;

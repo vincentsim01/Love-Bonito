@@ -16,8 +16,10 @@ function mobileMenuIn(){
     mobileMenu.classList.add("noneMenu");
 }
 
+var geolocationmobile=document.getElementById("geolocationmobile");
 var globeIcon = document.getElementById("globeIcon");
 globeIcon.addEventListener("click",geoLocation);
+geolocationmobile.addEventListener("click",geoLocation);
 
 
 function geoLocation(){

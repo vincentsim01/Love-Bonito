@@ -41,7 +41,7 @@ function positioning(data){
         console.log(data)
         let cityName = data.city.name;
         let temp = data.list[0].temp.day+" °C"
-        alert(`You are in ${cityName} the weather now is at ${temp}`);
+        alert(`You are in ${cityName}, the weather now is at ${temp}`);
     })
 
 }
@@ -112,7 +112,11 @@ bestsells.forEach(getShown=>{
 });
 
 var firstFooterContainer=document.getElementById("firstFooterContainer");
-
+var navigation=document.getElementById("navigation");
+var bestSellerText=document.getElementById("bestSellerText");
+var specialDeal=document.getElementById("specialDeal");
+var whatTrendingText=document.getElementById("whatTrendingText");
+var LDtext=document.getElementById("LDtext");
 
 
 var theBody=document.getElementsByTagName('body');
@@ -121,6 +125,12 @@ var theBody=document.getElementsByTagName('body');
 var lightdarkmobile=document.getElementById("lightdarkmobile");
 lightdarkmobile.addEventListener("click",function(){
     document.body.classList.toggle("darkMode");
+    firstFooterContainer.classList.toggle("grayMode");
+    navigation.classList.toggle("fontwhite");
+    bestSellerText.classList.toggle("fontwhite");
+    specialDeal.classList.toggle("fontwhite");
+    whatTrendingText.classList.toggle("fontwhite");
+    LDtext.classList.toggle("fontwhite");
 
 });
 
@@ -128,6 +138,11 @@ var darklightButton=document.getElementById("darklightModeButton");
 darklightButton.addEventListener("click",function(){
     document.body.classList.toggle("darkMode");
     firstFooterContainer.classList.toggle("grayMode");
+    navigation.classList.toggle("fontwhite");
+    bestSellerText.classList.toggle("fontwhite");
+    specialDeal.classList.toggle("fontwhite");
+    whatTrendingText.classList.toggle("fontwhite");
+    LDtext.classList.toggle("fontwhite");
 
 
 });

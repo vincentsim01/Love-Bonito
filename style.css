@@ -9,7 +9,7 @@
     height:55%;
     width:50%;
     left:25%;
-    top:25%;
+    top:100px;
     
 
     background:url('https://i.ibb.co/q19b4NB/hp-hero-fabricplay.webp');
@@ -461,6 +461,7 @@
 
 #footer2ContainerCollapse{
     display:none;
+    background-color: #ffd4c2;
 }
 
 @media(max-width:1021px){
@@ -473,6 +474,18 @@
 
     #searchBar{
         display:none;
+    }
+
+}
+
+@media(max-width:768px){
+
+    #footer2Container{
+        display:none;
+    }
+
+    #footer2ContainerCollapse{
+        display:block;
     }
 
 }
@@ -535,13 +548,13 @@
         width:40%;
     }
 
-    #footer2Container{
+    /* #footer2Container{
         display:none;
     }
 
     #footer2ContainerCollapse{
         display:block;
-    }
+    } */
 
 }
 
@@ -555,4 +568,8 @@
 
 #lightDarkContainer{
     text-align: center;
+}
+
+.fontwhite{
+    color:white;
 }

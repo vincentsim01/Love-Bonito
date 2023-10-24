@@ -41,7 +41,7 @@ function positioning(data){
         console.log(data)
         let cityName = data.city.name;
         let temp = data.list[0].temp.day+" °C"
-        alert(`Weather of ${cityName} is ${temp}`);
+        alert(`You are in ${cityName} the weather now is at ${temp}`);
     })
 
 }
@@ -137,7 +137,7 @@ popupCloseButton.addEventListener("click",popupGone);
 
 function popupGone(){
     popup.classList.add("none");
-    // newArrivalBanner.style.opacity="100%";
+    newArrivalBanner.style.opacity="100%";
 
 
 }
@@ -146,18 +146,18 @@ function popupGone(){
 var popup2=document.getElementById("popup2");
 document.body.onload=setTimeout(popup2Appear,3000);
 
-function popup2Appear(){
-    popup2.classList.remove("none2");
-    newArrivalBanner.style.opacity="60%";
+// function popup2Appear(){
+//     popup2.classList.remove("none2");
+//     newArrivalBanner.style.opacity="60%";
 
-}
+// }
 
-var popup2CloseButton = document.getElementById("popup2CloseButton");
-popup2CloseButton.addEventListener("click",popup2Gone);
+// var popup2CloseButton = document.getElementById("popup2CloseButton");
+// popup2CloseButton.addEventListener("click",popup2Gone);
 
-function popup2Gone(){
-    popup2.classList.add("none2");
-    newArrivalBanner.style.opacity="100%";
+// function popup2Gone(){
+//     popup2.classList.add("none2");
+//     newArrivalBanner.style.opacity="100%";
 
 
-}
+// }

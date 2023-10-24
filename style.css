@@ -6,7 +6,7 @@
     z-index: 5;
     position:absolute;
     text-align: center;
-    height:35%;
+    height:55%;
     width:50%;
     left:25%;
     top:25%;
@@ -22,7 +22,7 @@
     border:1px solid black;
 }
 
-#popup2{
+/* #popup2{
     position:absolute;
     z-index:3;
     height:20%;
@@ -31,11 +31,12 @@
     top:25%;
     background-color: white;
     border:1px solid black;
-    border-radius:20px;
+    border-radius:20px; */
 }
 
 #globiconpopup2{
-    width:35px;
+    width:25px;
+    background-color: azure;
 }
 
 /* <a href="https://ibb.co/VBDXhgV"><img src="https://i.ibb.co/q19b4NB/hp-hero-fabricplay.webp" alt="hp-hero-fabricplay" border="0" /></a> */

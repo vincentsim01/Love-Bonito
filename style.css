@@ -303,9 +303,13 @@
     border-top:2px dashed black;
 }
 
+#ulmodal{
+    list-style-type: none;
+}
+
 #freeDeliveryText{
     font-family: 'Oswald', sans-serif;
-    text-align: left;
+    text-align: center;
 
 }
 
@@ -314,7 +318,11 @@
     border:solid 1px black;
     background-color: beige;
     padding:20px;
-    margin:3%;
+    margin-left:5%;
+}
+
+.USP{
+    border-left: 1px solid black;
 }
 
 .USP:hover{
@@ -323,7 +331,7 @@
 }
 
 #aboutLoveBonitoText{
-    padding:20px;
+    padding:15px;
 }
 
 

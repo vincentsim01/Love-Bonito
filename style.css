@@ -500,6 +500,13 @@
         display:block;
     }
 
+    #popup{
+        width:95%;
+        margin:0px;
+        left:1%;
+
+    }
+
 }
 
 
@@ -508,6 +515,12 @@
         width:75%;
         text-align:center;
         align-items: center;
+    }
+
+    #popup{
+        width:95%;
+        margin:0px;
+        left:1%;
     }
 
     #navigation{
@@ -558,6 +571,12 @@
 @media(max-width:600px){
     .bebesellsell{
         width:40%;
+    }
+
+    #popup{
+        width:95%;
+        margin:0px;
+        left:1%;
     }
 
     /* #footer2Container{
